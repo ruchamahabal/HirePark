@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 .hero-image {
 	display: block;
 	max-width: 40rem;

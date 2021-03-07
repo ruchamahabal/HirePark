@@ -23,7 +23,7 @@
   </head>
   <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="#">
 			<img src="./assets/images/logo.png" width="180" height="50" alt="HirePark" style="margin-left: 20px;">
 		</a>
@@ -32,7 +32,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="container collapsed navbar-collapse" id="navbarNavDropdown">
+		<div class="collapsed navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
@@ -57,7 +57,7 @@
 	</nav>
 
 	<section id="home" class="section hero-section">
-		<div class="container vh-100">
+		<div class="container large-container vh-100">
 			<div class="hero-with-right-image row justify-content-center h-100 no-gutters flex-nowrap">
 				<div class="row">
 					<div class="hero-content col-sm-12 col-md-6 col-lg-6">
@@ -73,7 +73,24 @@
 						</div>
 					</div>
 					<div class="wow fadeInRight col-sm-12 col-md-6 col-lg-6" style="animation-delay: 1s;" >
-						<img alt="" class="image-with-blur hero-image image-loaded" data-src="./assets/images/hero-image.png" src="./assets/images/hero-image.png">
+						<img alt="" class="img-responsive image-with-blur hero-image image-loaded" data-src="./assets/images/hero-image.png" src="./assets/images/hero-image.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container small-container vh-100 mt-5 ml-3 mr-3">
+			<div class="row justify-content-center h-100">
+				<div class="hero-content col">
+					<div>
+						<h1 class="text-dark wow fadeInUp" style="animation-delay: 2s;">HirePark Consulting Services</h1>
+						<h3 class="text-muted wow fadeInUp" style="animation-delay: 3s;">Your Placement Citadel</h3>
+						<p class="hero-subtitle text-muted mt-5 wow fadeInLeft" style="animation-delay: 4s;">
+							HirePark Consulting Services is a well established Healthcare, IT, and Non IT Recruitment Consultancy working with businesses PAN India to supply Permanent, Contract, Temporary Staffing and third party payroll and HR solutions.
+						</p>
+						<div>
+							<a class="btn btn-lg hero-btn wow fadeInUp" style="animation-delay: 5s;" href="#about-us">Know More</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -103,9 +120,11 @@
 		<div class="row p-5">
 			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="card shadow" style="border: none;">
-					<img src="./assets/images/vision.png" class="img-responsive values-card card-img-top p-5" alt="...">
 					<div class="card-body">
-						<h5 class="values-title card-title">Vision</h5>
+						<h5 class="values-title card-title">
+							<img src="https://img.icons8.com/ios/50/000000/mountain.png"/>
+							Vision
+						</h5>
 						<p class="card-text text-muted">
 							We aim and ensure the highest standards of ethical and professional behavior while providing innovative and cost-effective business solutions based on current trends and best practice benchmarks.
 							Our aim is to be recognized as a premium partner committed to the provision of quality Human Resource solutions.
@@ -116,9 +135,11 @@
 
 			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="card shadow" style="border: none;">
-					<img src="./assets/images/mission.png" class="img-responsive values-card card-img-top p-5" alt="...">
 					<div class="card-body">
-						<h5 class="values-title card-title">Mission</h5>
+						<h5 class="values-title card-title">
+							<img src="https://img.icons8.com/ios/50/000000/goal.png"/>
+							Mission
+						</h5>
 						<p class="card-text text-muted">
 							We provide personalized and customized HR outsourcing and consultation services designed to improve the competitive positioning of your organization.
 							Our dedicated team and quality services are delivered with a flexible approach that exceeds customer expectations and to build genuine long term partnerships based on trust, honesty and integral working relations.
@@ -129,9 +150,11 @@
 
 			<div class="col-lg-4 col-md-12 col-sm-12">
 				<div class="card shadow" style="border: none;">
-					<img src="./assets/images/values.png" class="img-responsive values-card card-img-top p-5" alt="...">
 					<div class="card-body">
-						<h5 class="values-title card-title">Values</h5>
+						<h5 class="values-title card-title">
+							<img src="https://img.icons8.com/dotty/50/000000/olympic-medal-silver.png"/>
+							Values
+						</h5>
 						<p class="card-text text-muted">
 							Integrity - We uphold the highest ethical standards in all relationships.<br>
 							Quality - We deliver high quality service to all stakeholders.<br>
@@ -146,9 +169,11 @@
 
 			<div class="commitment-col col-lg-4 col-md-12 col-sm-12">
 				<div class="card shadow" style="border: none;">
-					<img src="./assets/images/commitment.png" class="img-responsive values-card card-img-top p-5" alt="...">
 					<div class="card-body">
-						<h5 class="values-title card-title">Commitment</h5>
+						<h5 class="values-title card-title">
+							<img src="https://img.icons8.com/ios/50/000000/diamond-care-1.png"/>
+							Commitment
+						</h5>
 						<p class="card-text text-muted">
 							To provide our clients a selection of the finest qualified and professional candidates available in the market.<br>
 							To deliver cost effective and perfect solutions within a shortest time span.<br>
@@ -171,16 +196,16 @@
 		<div class="row m-5">
 			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<div class="card shadow" style="border: none; width: 21rem;">
-					<img src="./assets/images/permanent-recruitment.png" class="card-img-top p-5" alt="...">
+					<img src="./assets/images/recruitment.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
-						<h5 class="values-title card-title">Recruitment Services</h5>
+						<h5 class="values-title card-title pt-5">Recruitment Services</h5>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<div class="card shadow" style="border: none; width: 21rem;">
-					<img src="./assets/images/payroll-outsourcing.png" class="card-img-top p-5" alt="...">
+					<img src="./assets/images/payroll.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h5 class="values-title card-title">Payroll Outsourcing</h5>
 					</div>
@@ -189,7 +214,7 @@
 
 			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<div class="card shadow" style="border: none; width: 21rem;">
-					<img src="./assets/images/contract.png" class="card-img-top p-5" alt="...">
+					<img src="./assets/images/contract.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h5 class="values-title card-title">Contract Staffing</h5>
 					</div>
@@ -203,7 +228,7 @@
 			<div class="hero-with-right-image row justify-content-center h-100 no-gutters flex-nowrap">
 				<div class="hero-content col-12 col-md-6">
 					<div class="mt-5 mb-5">
-						<h1 class="text-dark wow fadeInUp" style="animation-delay: 1s;">HirePark provide executive search services which include</h1>
+						<h1 class="text-dark wow fadeInUp" style="animation-delay: 1s;">HirePark provides executive search services which include</h1>
 					</div>
 					<div>
 						<ul class="service-checklist">
@@ -225,22 +250,22 @@
 				<div class="col-lg-6">
 					<div>
 						<h1 class="text-dark wow fadeInUp">Healthcare Recruitment</h1>
-						<h3 class="text-muted wow fadeInUp">Doctors, Nurses, Pharmacist, Nursing Attendant, Healthcare Professionals, Middle Management/Top Level Management Position</h3>
+						<h4 class="text-muted wow fadeInUp">Doctors, Nurses, Pharmacist, Nursing Attendant, Healthcare Professionals, Middle Management/Top Level Management Position</h4>
 					</div>
 				</div>
 				<div class="col-lg-6 wow fadeInRight">
-					<img alt="" class="image-with-blur hero-image image-loaded" src="./assets/images/healthcare.png">
+					<img alt="" class="img-responsive image-with-blur hero-image image-loaded" src="./assets/images/healthcare.png">
 				</div>
 			</div>
 
 			<div class="hero-with-right-image row no-gutters">
 				<div class="col-lg-6 wow fadeInRight">
-					<img alt="" class="image-with-blur hero-image image-loaded" src="./assets/images/IT.png">
+					<img alt="" class="img-responsive image-with-blur hero-image image-loaded" src="./assets/images/IT.png">
 				</div>
 				<div class="hero-content-right col-lg-6">
 					<div class="p-5">
 						<h1 class="text-dark wow fadeInUp">Information Technology</h1>
-						<h3 class="text-muted wow fadeInUp">Software Developer, Product Manager, Coding Engineer, Testing Engineer, Quality Assurance, Hardware Engineer, Network Engineer, and Desktop Support Executives</h3>
+						<h4 class="text-muted wow fadeInUp">Software Developer, Product Manager, Coding Engineer, Testing Engineer, Quality Assurance, Hardware Engineer, Network Engineer, and Desktop Support Executives</h4>
 					</div>
 				</div>
 			</div>
@@ -249,22 +274,22 @@
 				<div class="col-lg-6">
 					<div>
 						<h1 class="text-dark wow fadeInUp">Engineering and Construction</h1>
-						<h3 class="text-muted wow fadeInUp">Engineers</h3>
+						<h4 class="text-muted wow fadeInUp">Engineers</h4>
 					</div>
 				</div>
 				<div class="col-lg-6 wow fadeInRight">
-					<img alt="" class="image-with-blur hero-image image-loaded" src="./assets/images/engineering.png">
+					<img alt="" class="img-responsive image-with-blur hero-image image-loaded" src="./assets/images/engineering.png">
 				</div>
 			</div>
 
 			<div class="hero-with-right-image row no-gutters">
 				<div class="col-lg-6 wow fadeInRight">
-					<img alt="" class="image-with-blur hero-image image-loaded" src="./assets/images/movers.jpg">
+					<img alt="" class="img-responsive image-with-blur hero-image image-loaded" src="./assets/images/movers.jpg">
 				</div>
 				<div class="hero-content-right col-lg-6">
 					<div style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Packaging</h1>
-						<h3 class="text-muted wow fadeInUp">Movers and Packers</h3>
+						<h4 class="text-muted wow fadeInUp">Movers and Packers</h4>
 					</div>
 				</div>
 			</div>
@@ -273,22 +298,22 @@
 				<div class="col-lg-6">
 					<div>
 						<h1 class="text-dark wow fadeInUp">Finance and Banking</h1>
-						<h3 class="text-muted wow fadeInUp">Accountant and Bankers</h3>
+						<h4 class="text-muted wow fadeInUp">Accountant and Bankers</h4>
 					</div>
 				</div>
 				<div class="col-lg-6 wow fadeInRight">
-					<img alt="" class="image-with-blur hero-image image-loaded" src="./assets/images/finance.png">
+					<img alt="" class="img-responsive image-with-blur hero-image image-loaded" src="./assets/images/finance.png">
 				</div>
 			</div>
 
 			<div class="hero-with-right-image row no-gutters">
 				<div class="col-lg-6 wow fadeInRight">
-					<img alt="" class="image-with-blur hero-image image-loaded" src="./assets/images/others.jpg">
+					<img alt="" class="img-responsive image-with-blur hero-image image-loaded" src="./assets/images/others.jpg">
 				</div>
 				<div class="hero-content-right col-lg-6">
 					<div style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Others</h1>
-						<h3 class="text-muted wow fadeInUp">Advertising & Media, Gems & Jewellery, Hotel Industry, Retail, Shipping</h3>
+						<h4 class="text-muted wow fadeInUp">Advertising & Media, Gems & Jewellery, Hotel Industry, Retail, Shipping</h4>
 					</div>
 				</div>
 			</div>
@@ -299,11 +324,11 @@
 				<div class="col-md-12 col-sm-12">
 					<div style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Healthcare Recruitment</h1>
-						<h3 class="text-muted wow fadeInUp">Doctors, Nurses, Pharmacist, Healthcare professionals</h3>
+						<h4 class="text-muted wow fadeInUp">Doctors, Nurses, Pharmacist, Healthcare professionals</h4>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 wow fadeInRight">
-					<img alt="" class="img-responsive image-loaded" src="./assets/images/healthcare.png">
+					<img alt="" class="img-fluid" src="./assets/images/healthcare.png">
 				</div>
 			</div>
 
@@ -311,11 +336,11 @@
 				<div class="hero-content-right col-md-12 col-sm-12">
 					<div class="p-5" style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Information Technology</h1>
-						<h3 class="text-muted wow fadeInUp">Developers, Service Desk</h3>
+						<h4 class="text-muted wow fadeInUp">Developers, Service Desk</h4>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 wow fadeInRight">
-					<img alt="" class="img-responsive image-loaded" src="./assets/images/IT.png">
+					<img alt="" class="img-fluid" src="./assets/images/IT.png">
 				</div>
 			</div>
 
@@ -323,11 +348,11 @@
 				<div class="col-md-12 col-sm-12">
 					<div style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Engineering and Construction</h1>
-						<h3 class="text-muted wow fadeInUp">Engineers</h3>
+						<h4 class="text-muted wow fadeInUp">Engineers</h4>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 wow fadeInRight">
-					<img alt="" class="img-responsive image-loaded" src="./assets/images/engineering.png">
+					<img alt="" class="img-fluid" src="./assets/images/engineering.png">
 				</div>
 			</div>
 
@@ -335,11 +360,11 @@
 				<div class="hero-content-right col-md-12 col-sm-12">
 					<div style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Packaging</h1>
-						<h3 class="text-muted wow fadeInUp">Movers and Packers</h3>
+						<h4 class="text-muted wow fadeInUp">Movers and Packers</h4>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 wow fadeInRight">
-					<img alt="" class="img-responsive image-loaded" src="./assets/images/movers.jpg">
+					<img alt="" class="img-fluid" src="./assets/images/movers.jpg">
 				</div>
 			</div>
 
@@ -347,11 +372,11 @@
 				<div class="col-md-12 col-sm-12">
 					<div style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Finance and Banking</h1>
-						<h3 class="text-muted wow fadeInUp">Accountant and Bankers</h3>
+						<h4 class="text-muted wow fadeInUp">Accountant and Bankers</h4>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 wow fadeInRight">
-					<img alt="" class="img-responsive image-loaded" src="./assets/images/finance.png">
+					<img alt="" class="img-fluid" src="./assets/images/finance.png">
 				</div>
 			</div>
 
@@ -359,11 +384,11 @@
 				<div class="hero-content-right col-md-12 col-sm-12">
 					<div style="text-align: center;">
 						<h1 class="text-dark wow fadeInUp">Others</h1>
-						<h3 class="text-muted wow fadeInUp">Advertising & Media, Gems & Jewellery, Hotel Industry, Retail, Shipping</h3>
+						<h4 class="text-muted wow fadeInUp">Advertising & Media, Gems & Jewellery, Hotel Industry, Retail, Shipping</h4>
 					</div>
 				</div>
 				<div class="col-md-12 col-sm-12 wow fadeInRight">
-					<img alt="" class="img-responsive image-loaded" src="./assets/images/others.jpg">
+					<img alt="" class="img-fluid" src="./assets/images/others.jpg">
 				</div>
 			</div>
 		</div>
@@ -444,7 +469,7 @@
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h5>Office Hours</h5>
 					<ul class="list-unstyled quick-links">
-						<li>Mon - Fri: 9:00am to 5:00pm</li>
+						<li>Mon - Fri : 9:00am to 5:00pm</li>
 						<li>Saturday & Sunday : Closed</li>
 					</ul>
 				</div>
